@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box_model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+      h1 {
+        background-color: yellow;
+      }
+      p {
+        width: 50%;
+        background-color: aqua;
+        color: blue;
+      }
+      span.text {
+        background-color: yellow;
+        color: red;
+      }
+      .box1,
+      .box2,
+      .box3 {
+        width: 300px;
+        border: 2px solid red;
+        margin: 10px;
+        padding: 10px;
+      }
+      .box1 {
+        background-color: greenyellow;
+      }
+      .box2 {
+        background-color: orange;
+      }
+      .box3 {
+        background-color: pink;
+      }
+      ul.menu > li {
+        display: inline;
+        margin-right: 15px;
+      }
+      ul.menu a {
+        text-decoration: none;
+      }
+      ul.menu a:hover {
+        background-color: yellow;
+      }
+      .pic1,.pic2,.pic3 {
+        box-sizing: border-box;
+        width: 300px;
+        border-radius: 20px;
+        margin-right: 15px;
+      }
+      .pic2 {
+
+      }
+      .pic3 {
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+    </ul>
+
+    <a href="#">Google</a>
+    <a href="#">Home</a>
+    <p>
+      Lorem ipsum dolor sit amet
+      <span class="text">consectetur</span> adipisicing elit. Culpa, nihil.
+      Autem, unde voluptatum porro dolorum iure eos impedit beatae at sed
+      officiis dolorem, minima earum tenetur labore ducimus minus quia.
+    </p>
+
+    <div class="box1">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+      reprehenderit tenetur ea beatae dolore qui aut aliquid consequatur maxime
+      dolor architecto nihil, a cum est deserunt asperiores delectus perferendis
+      corporis!
+    </div>
+    <br />
+    <div class="box2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magni, quia
+      aliquid impedit quisquam a esse odio quam quasi quis, eligendi voluptatum
+      archite brcto beatae doloribus quidem nulla repellat voluptatem molestias.
+    </div>
+    <br />
+    <div class="box3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+      possimus ipsum assumenda, praesentium qui officiis expedita debitis
+      repellat asperiores perferendis, sapiente eligendi exercitationem omnis
+      cum fugit iusto neque laborum similique!
+    </div>
+    <img
+      src="https://somoskudasai.com/wp-content/uploads/2024/09/kudasai_bluearchive-1.jpg"
+      alt="" class="pic1"/>
+    <img
+      src="https://somoskudasai.com/wp-content/uploads/2024/09/kudasai_bluearchive-1.jpg"
+      alt="" class="pic2"/>
+    <img
+      src="https://somoskudasai.com/wp-content/uploads/2024/09/kudasai_bluearchive-1.jpg"
+      alt="" class="pic3"/>
+  </body>
+</html>

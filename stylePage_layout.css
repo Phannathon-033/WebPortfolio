@@ -1,0 +1,53 @@
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+
+h1, h2, h3 {
+text-align: center;
+}
+
+h1 {
+font-size: 3em;
+margin-top: 20px;
+
+}
+
+h2 {
+color: white;
+background-color: blue;
+display: inline-block;
+padding: 10px;
+border-radius: 50px;
+margin: 10px;
+}
+
+h3 {
+color: rgb(0, 123, 255);
+}
+
+ul, ol {
+list-style-type: none;
+padding: 0;
+}
+
+a {
+color: rgb(0, 123, 255);
+text-decoration: none;
+font-weight: bold;
+}
+
+img {
+display: block;
+margin: 20px auto;
+height: auto;
+border-radius: 8px;
+border: 5px solid orange;
+}
+table {
+width: 50%;
+margin: 20px auto;
+text-align: center;
+}

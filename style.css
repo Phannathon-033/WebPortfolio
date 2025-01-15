@@ -1,0 +1,26 @@
+.second {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    background-color: aliceblue;
+}
+.header {
+    position: fixed;
+    background-color: yellow;
+    bottom: 20px;
+}
+.nav {
+    margin: 20px;
+    position: relative;
+    background-color: lightblue;
+}
+.footer {
+    position: fixed;
+    width: 100px;
+    top: 20px;
+    right: 50px;
+    background-color: pink;
+}
+.box {
+    background-color: yellow;
+}
